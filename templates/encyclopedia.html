@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.encyclopedia.css') }}">
+
+  <div class="d-flex justify-content-center header_wrapper" style="height: 80px;">
+    <h3 class="align-self-center">База знаний</h3>
+  </div>
+
+  <div id="main_body" class="mt-5 pt-5 container">
+    <div class="row mb-4">
+      <div class="col-4">
+        <div class="d-flex justify-content-center block">
+          <img class="pic-mini" src="../static/image/phase1.jpg">
+          <h4 class="ps-2 text-center align-self-center">Тип ландшафта</h4>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="d-flex justify-content-center block">
+          <img class="pic-mini" src="../static/image/phase2.jpg">
+          <h4 class="text-center align-self-center">Театры военных действий</h4>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="d-flex justify-content-center block">
+          <img class="pic-mini" src="../static/image/phase4.jpg">
+          <h4 class="ps-3 text-center align-self-center">Командные и Тактические карты</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-4">
+        <div class="d-flex justify-content-center block">
+          <img class="pic-mini" src="../static/image/phase5.jpg">
+          <h4 class="text-center align-self-center">Основные положения</h4>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="d-flex justify-content-center block">
+          <img class="pic-mini" src="../static/image/phase3.jpg">
+          <h4 class="ps-4 align-self-center">F.A.Q.</h4>
+        </div>
+      </div>
+    </div>
+  </div> 
+{% endblock %}

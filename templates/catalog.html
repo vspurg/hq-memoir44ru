@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='style.catalog.css') }}">
+
+<div class="d-flex justify-content-center header_wrapper" style="height: 80px;">
+  <h3 class="align-self-center">Каталог сценариев</h3>
+</div>
+
+  <div class="mt-4 mb-5 container">
+    <div class="row">
+      <h5 class="mb-4 text-center">выберите необходимый тип ландшафта</h5>
+      <div class="col-6">
+        <div class="d-flex block-theater">
+          <div class="ps-3 d-flex align-items-center">
+            <img class="ms-1 pic-theater-1" src="../static/image/1.png">   
+          </div>
+          <div class="ps-3 pe-3">
+            <h6 class="pt-3">Обучающие сценарии</h6>
+            <p>В сценариях могут использоваться следующие дополнения:</p>
+              <ul class="single-list">
+                <li>Pacific Theater</li>
+                <li>Eastern Front</li>
+                <li>Mediterranean Theater</li>
+                <li>Winter Wars</li>
+                <li>Terrain Pack</li>
+              </ul>
+              <div class="d-flex justify-content-center">
+                <button class="mb-3 btn_open">Просмотреть</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="d-flex block-theater">
+          <div class="d-flex align-items-center">
+            <img class="ms-4 pic-theater-2" src="../static/image/2.png">   
+          </div>
+          <div class="ps-3 pe-3">
+            <h6 class="pt-3">Равнина</h6>
+            <p>В сценариях могут использоваться следующие дополнения:</p>
+              <ul class="single-list">
+                <li>Winter Wars</li>
+                <li>Terrain Pack</li>
+                <li>Mediterranean Theater</li>
+                <li>Pacific Theater</li>
+                <li>Eastern Front</li>
+              </ul>
+              <div class="d-flex justify-content-center">
+                <button class="mb-3 btn_open">Просмотреть</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-3 row">
+      <div class="col-6">
+        <div class="d-flex block-theater">
+          <div class="d-flex align-items-center">
+            <img class="ms-4 pic-theater-3" src="../static/image/3.png">
+          </div>
+          <div class="ps-3 pe-3">
+            <h6 class="pt-3">Джунгли</h6>
+            <p>Обязательные дополнения для сценариев:</p>
+              <ul class="single-list">
+                <li>Pacific Theater</li>
+              </ul>
+            <p>В сценариях могут использоваться следующие дополнения:</p>
+              <ul class="single-list">
+                <li>Through Jungle and Desert</li>
+                <li>Winter Wars</li>
+                <li>Terrain Pack</li>
+                <li>Eastern Front</li>
+              </ul>
+              <div class="d-flex justify-content-center">
+                <button class="mb-3 btn_open">Просмотреть</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6"> 
+        <div class="d-flex block-theater">
+          <div class="ps-3 d-flex align-items-center">
+            <img class="ms-3 pic-theater-4" src="../static/image/4.png">  
+          </div>
+          <div class="ps-3 pe-3">
+            <h6 class="pt-3">Пустыня</h6>
+            <p>Обязательные дополнения для сценариев:</p>
+              <ul class="single-list">
+                <li>Desert board map</li>
+                <li>Mediterranean Theater</li>
+              </ul>
+            <p>В сценариях могут использоваться следующие дополнения:</p>
+              <ul class="single-list">
+                <li>Through Jungle and Desert</li>
+                <li>Winter Wars</li>
+                <li>Terrain Pack</li>
+              </ul>
+              <div class="d-flex justify-content-center">
+                <button class="mb-3 btn_open">Просмотреть</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-3 row">
+      <div class="col-6">    
+        <div class="d-flex block-theater">
+          <div class="ps-3 d-flex align-items-center">
+            <img class="pic-theater-5" src="../static/image/5.png">
+          </div>
+          <div class="ps-3 pe-3">
+            <h6 class="pt-3">Зимние сценарии</h6>
+            <p>Обязательные дополнения:</p>
+              <ul class="single-list">
+                <li>Winter board map</li>
+                <li>Eastern Front</li>
+              </ul>
+            <p>В сценариях могут использоваться следующие дополнения:</p>
+              <ul class="single-list">
+                <li>Winter Wars</li>
+                <li>Terrain Pack</li>
+              </ul>
+            <div class="d-flex justify-content-center">
+              <button class="mb-3 btn_open">Просмотреть</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6"> 
+        <div class="d-flex block-theater">
+          <div class="ps-3 d-flex align-items-center">
+            <img class="ms-3 pic-theater-4" src="../static/image/6.png">  
+          </div>
+          <div class="ps-3 pe-3">
+            <h6 class="pt-3">Побережье</h6>
+            <p>В сценариях могут использоваться следующие дополнения:</p>
+              <ul class="pb-5 single-list">
+                <li>Through Jungle and Desert</li>
+                <li>Winter Wars</li>
+                <li>Terrain Pack</li>
+                <li>Pacific Theater</li>
+              </ul>
+              <div class="pt-2 d-flex justify-content-center">
+                <button class="mb-3 btn_open">Просмотреть</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

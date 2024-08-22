@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='style.support.css') }}">
+
+  <div class="d-flex justify-content-center header_wrapper" style="height: 80px;">
+    <h3 class="align-self-center">Поддержка проекта</h3>
+  </div>
+
+<div class="mt-5 container">
+  <div class="row">
+    <div class="col-6">
+      <div class="ps-3 pe-5 pt-3 pb-3 block d-flex">
+        <div class="pt-1 w-100">
+          <img src="../static/image/ruco.png">   
+        </div>
+        <div>
+          <h4>О проекте</h4>
+          <p>HQ Memoir'44 — это некоммерческий проект, который создан командой из двух человек в рамках популяризации настольной военно-стратегической игры Memoir'44 в русскоязычной среде. Также, он является максимально полным и объёмным ресурсом на русском языке для фанатов и поклонников данной игры.
+            <br>Проект включает в себя:</p>
+          <ul class="mb-4 single-list">
+            <li>Базовые правила игры</li>
+            <li>Правила игры всех дополнений</li>
+            <li>F.A.Q.</li>
+            <li>Каталог профессиональных и любительских сценариев для игр</li>
+            <li>Симулятор случайного броска кубиков</li>
+            <li>Полноценный форум для общения игроков</li>
+          </ul>
+          <p>В виду отсутствия штата разработчиков, мы приветствуем любую поддержку и/или участие в проекте — от всех заинтересованных лиц.<br>Все Ваши предложения по сотрудничеству можно направлять на рабочую почту команды данного проекта: <span class="red-color">...@...</span></p>
+          <p>Текущий стек разработчиков:</p>
+            <ul class="mb-5 single-list">
+              <li><span class="red-color">Daniel (приложение проекта)</span></li>
+              <li><span class="red-color">Павел (форум проекта)</span></li>
+            </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="col-6"> 
+      <div class="row"> 
+        <div class="col-12">
+          <div class="pe-5 pt-3 pb-3 block">
+            <h4 class="text-center">Отправить сценарий</h4>
+            <div class="d-flex">
+              <div class="ps-3 me-1 w-100">
+                <img src="../static/image/btn_2.png">   
+              </div>
+              <p>К сожалению, публичное размещение сценариев в каталоге проекта — <span class="red-color">запрещено</span>. В связи с этим, все любительские сценарии при добавлении на сайт проекта — проходят ручную модерацию.<br>Мы тщательно относимся к Вашим сценариям. Пожалуйста, перед отправкой сценария: <span class="red-color">скачайте анкету</span>, которую необходимо заполнить и приложить к Вашему сценарию, а затем подайте заявку на добавление сценария.<br><b>Сроки рассмотрения сценария:</b> <span class="red-color">14</span> рабочих дней.
+              </p>
+            </div>
+            <div class="mt-3 d-flex justify-content-center">
+              <button class="mb-3 me-3 btn_open">Скачать анкету</button>
+              <button class="mb-3 btn_open">Подать заявку</button>
+            </div>
+          </div>
+        </div>
+        <div class="mt-3 col-12">
+          <div class="pe-5 pt-3 pb-3 block">
+            <h4 class="text-center">Ошибки и Пожелания</h4>
+            <div class="d-flex">
+              <div class="ps-3 me-1 w-100">
+                <img src="../static/image/btn_1.png">   
+              </div>
+              <p><span class="red-color">Внимание:</span> так как развитие проекта и его функционирование осуществляется энтузиастами, то с Вашей стороны могут быть выявлены: баги, ошибки перевода, размещение некорректной информации, а также какие-либо другие неточности.<br>Все свои замечания и пожелания Вы можете направить команде для ознакомления с ними и по возможности — их исправления.<br><b>Сроки рассмотрения заявок:</b> <span class="red-color">7</span> рабочих дней.
+              </p>
+            </div>
+            <div class="mt-2 d-flex justify-content-center">
+              <button class="mb-2 btn_open">Заполнить форму</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div class="mt-4 mb-4 container">
+  <div class="mb-3 row">
+    <div class="offset-3 col-6"> 
+      <div class="ps-3 pe-3 pt-3 pb-3 block">
+        <h4 class="text-center">Пожертвование</h4>
+        <div class="d-flex">
+          <div class="w-100">
+            <img src="../static/image/gold.png">   
+          </div>
+          <p class="ps-4 pe-3">Так как — данный проект является некоммерческим, мы с благодарностью относимся к любому безвозмездному пожертвованию от Вас, на дальнейшее развитие и поддержание проекта (оплату хостинга, активное обновление приложения, наполнение сайта и его продвижение).</p>
+        </div>
+        <div class="mt-3 d-flex justify-content-center">
+          <button class="mb-3 btn_open">Сделать пожертвование</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+{% endblock %}
