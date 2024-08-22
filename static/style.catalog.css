@@ -1,0 +1,94 @@
+/* Заголовки */
+h3 {
+    font-family: "Russo One", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #ccc;
+    z-index: 9999;
+}
+h5 {
+    color: #ccc;
+    font-family: "Arsenal", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: italic;
+}
+h6 {
+    color: rgb(33, 62, 92);
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Russo One", sans-serif;
+}
+
+/* Картинки */
+.pic-theater-1 {
+    height: 101px;
+    width: 102px;
+}
+.pic-theater-2 {
+    height: 120px;
+    width: 90px;
+}
+.pic-theater-3 {
+    height: 110px;
+    width: 110px;
+}
+.pic-theater-4 {
+    height: 120px;
+    width: 96px;
+}
+.pic-theater-5 {
+    height: 124px;
+    width: 106px;
+}
+
+/* Блок с театром военных действий */
+.block-theater {
+    background-color: rgb(255, 255, 255, 0.85);
+    border: 2px solid #263647;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.5);
+}
+p {
+    color: #000;
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+}
+.single-list li {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 0.4rem;
+    padding-left: 2rem;
+    background-image: url(./image/i.png);
+    background-position: 0 0;
+    background-size: 1.7rem 1.7rem;
+    background-repeat: no-repeat;
+}
+
+/* Кнопки */
+button.btn_open {
+    color: #86909b;
+    padding: 10px 30px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    border: 2px solid #86909b;
+    font-family: "Russo One", sans-serif;
+    transition: all .50s ease-in-out;
+}  
+button.btn_open:hover {
+    color: #c94f33b2;
+    border: 2px solid #c94f33b2;
+    background-color: #c94f3325;
+    transition: all .50s ease-in-out;
+}
+
+/* Задний фон */
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./image/bg.jpg);
+    background-size: cover;
+}
